@@ -128,10 +128,15 @@ gnb_btn > span:last-child {margin-bottom: 0;}
 
 /* right_content */
 #section01 .right_content {width: 50%;}
-#section01 .right_content .slick_content {margin-top: 170px;}
-#section01 .right_content .slick_content .pc_card {width: 418px !important;}
+#section01 .right_content .slick_content {margin: 170px 0 0 50px;}
+#section01 .right_content .slick_content .pc_card {width: 418px !important; border: 1px solid rgba(0, 0, 0, 0.1); border-radius: 15px; margin-right: 20px;}
 #section01 .right_content .slick_content .pc_card figure {width: 100%; height: auto;}
-#section01 .right_content .slick_content .pc_card figure > img {width: 100%;}
+#section01 .right_content .slick_content .pc_card figure > img {width: 100%; border-radius: 15px;}
+#section01 .right_content .slick_content .pc_card .card_text_box {width: 100%; background: #F4F6F8; padding: 8%; box-sizing: border-box;}
+#section01 .right_content .slick_content .pc_card .card_text_box .card_tit {margin-bottom: 5px; word-break: keep-all;}
+#section01 .right_content .slick_content .pc_card .card_text_box .card_txt {color: rgba(0, 0, 0, 0.7); margin-bottom: 20px; word-break: keep-all;}
+#section01 .right_content .slick_content .pc_card .card_text_box .card_txt:last-child {margin-bottom: 0;}
+
 
 
 

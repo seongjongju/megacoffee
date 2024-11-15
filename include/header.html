@@ -201,7 +201,6 @@
     /* m_gnb */
     const gnbBtn = $('.gnb_btn');
     const m_gnb = $('.m_gnb');
-    console.log(m_gnb)
 
     gnbBtn.on('click', ()=> {
         m_gnb.toggleClass('on');
@@ -209,4 +208,26 @@
     });
       /* m_gnb */
 });
+
+    /* m_gnb 반응형 800px ~~ */
+const m_gnb_titles = document.querySelectorAll('.m_gnb_title > a');
+const m_gnb_deps = document.querySelectorAll('.m_gnb_dep');
+const gnbBtn = document.querySelector('.gnb_btn');
+console.log(m_gnb_deps)
+
+m_gnb_titles.forEach(function(m_gnb_title, m_gnb_titleIndex){
+    m_gnb_title.addEventListener('click', () => {
+        $(m_gnb_deps[m_gnb_titleIndex]).slideToggle(200);
+    });
+});
+
+gnbBtn.addEventListener('click', () => { /* gnb닫았을 때 하위메뉴 닫기 */
+    m_gnb_deps.forEach(function(m_gnb_dep) {
+        width = window.innerWidth;
+        if(width <= 800) {
+            $(m_gnb_dep).slideUp(300);
+        }
+    });
+});
+/* m_gnb 반응형 800px ~~ */
 </script>

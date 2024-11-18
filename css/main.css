@@ -96,9 +96,10 @@ header nav .sns_box > a:hover{background-color: #fdd000; border-color:#fdd000;}
 /* 헤더 반응형 800 사이즈 */
 @media screen and (max-width: 800px) {
   header {height: 60px;}
+  header nav {padding: 0 3%;}
   header nav .logo {width: 150px; height: 31px;}
 
-  .gnb_btn {top: 22px; right: 2%;}
+  .gnb_btn {top: 22px; right: 3%;}
 
   header nav .sns_box {display: none;}
 
@@ -174,6 +175,18 @@ header nav .sns_box > a:hover{background-color: #fdd000; border-color:#fdd000;}
   }
   #main_visual .scroll .scroll_text {display: block; position: absolute; bottom: 70px; left: 50%; transform: translateX(-50%); color: #fff;}
   /* drag */
+
+  /* visual 반응형 760 사이즈 */
+  @media screen and (max-width: 800px) {
+    #main_visual .slick_visual .visual {background: no-repeat center/ cover;}
+    #main_visual .slick_visual .visual1 {background-image: url(../img/m_visual1.jpg);}
+    #main_visual .slick_visual .visual2 {background-image: url(../img/m_visual2.jpg);}
+    #main_visual .slick_visual .visual3 {background-image: url(../img/m_visual3.jpg);}
+    #main_visual .slick_visual .visual4 {background-image: url(../img/m_visual4.jpg);}
+    #main_visual .slick_visual .visual5 {background-image: url(../img/m_visual5.jpg);}
+    #main_visual .slick_visual .visual6 {background-image: url(../img/m_visual6.jpg);}
+  }
+  /* visual 반응형 760 사이즈 */
   /* //visual---------------------------------------------------------------------- */
 
   /* section01------------------------------------------------------------------------- */
@@ -241,4 +254,17 @@ overflow: hidden; text-overflow: ellipsis; display: -webkit-box; -webkit-box-ori
 /* right_content */
 }
 /* section01 반응형 1280사이즈 */
+
+/* section01 반응형 1100사이즈 */
+@media screen and (max-width: 1100px) {
+  /* left_text */
+  #section01 .left_text .layer01 {top: 15%; right: 5%;}
+/* left_text */
+
+/* right_content */
+#section01 .right_content .swiper_content {width: 770px;}
+#section01 .right_content .swiper_content .swiper-wrapper .swiper-slide .pc_card {margin-top: 170px;}
+/* right_content */
+}
+/* section01 반응형 1100사이즈 */
   /* //section01------------------------------------------------------------------------- */

@@ -13,5 +13,15 @@ var swiper = new Swiper(".swiper_content", {
         swiper.navigation.nextEl.classList.remove('swiper-button-disabled');
       }
     }
+  },
+  breakpoints: {
+    801: {
+      slidesPerView: 2.1,
+    },
+    375: {
+      slidesPerView: 3.5,
+      centeredSlides: true,
+      spaceBetween:10,
+    }
   }
 });

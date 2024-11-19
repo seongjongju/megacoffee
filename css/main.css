@@ -127,7 +127,7 @@ header nav .sns_box > a:hover{background-color: #fdd000; border-color:#fdd000;}
 /* dots커스텀 */
 .slick-dots {bottom: 10px; text-align: center;}
 .slick-dots li {display: inline-block; margin: 0 5px;}
-.slick-dots li.slick-active {margin-right: 30px;  }
+.slick-dots li.slick-active {margin-right: 30px;}
 .slick-dots li button {background-color: rgba(255, 255, 255, 0.7); border: none; border-radius: 5px; width: 25px; height: 10px; padding: 0; cursor: pointer;}
 .slick-dots li button:before{content: '';}
   .slick-dots li.slick-active button {width: 50px; background-color: #fff;}
@@ -176,9 +176,9 @@ header nav .sns_box > a:hover{background-color: #fdd000; border-color:#fdd000;}
   #main_visual .scroll .scroll_text {display: block; position: absolute; bottom: 70px; left: 50%; transform: translateX(-50%); color: #fff;}
   /* drag */
 
-  /* visual 반응형 760 사이즈 */
+  /* visual 반응형 800 사이즈 */
   @media screen and (max-width: 800px) {
-    #main_visual .slick_visual .visual {background: no-repeat center/ cover;}
+    #main_visual .slick_visual .visual {min-height: 812px;  background: no-repeat center/ cover;}
     #main_visual .slick_visual .visual1 {background-image: url(../img/m_visual1.jpg);}
     #main_visual .slick_visual .visual2 {background-image: url(../img/m_visual2.jpg);}
     #main_visual .slick_visual .visual3 {background-image: url(../img/m_visual3.jpg);}
@@ -186,7 +186,7 @@ header nav .sns_box > a:hover{background-color: #fdd000; border-color:#fdd000;}
     #main_visual .slick_visual .visual5 {background-image: url(../img/m_visual5.jpg);}
     #main_visual .slick_visual .visual6 {background-image: url(../img/m_visual6.jpg);}
   }
-  /* //visual 반응형 760 사이즈 */
+  /* //visual 반응형 800 사이즈 */
   /* //visual---------------------------------------------------------------------- */
 
   /* section01------------------------------------------------------------------------- */

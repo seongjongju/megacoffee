@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 .inner {max-width:1280px; margin: 0 auto;}
-section {height: 100vh;}
+section {height: 100vh; min-height: 812px;}
 .ylw_btn {display: inline-block; height: 50px; padding: 0 30px; background-color:#fdd000; line-height: 50px; margin-top: 30px;} /* 노란버튼 */
 ::selection {background-color: #fdd000;} /* 텍스트 드래그 배경 컬러 */
 
